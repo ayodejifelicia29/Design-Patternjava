@@ -1,0 +1,7 @@
+construire un Robot = [tete, bg, bd, pg, pd]
+
+ajouter la tete .
+ajouter le bras gauche
+ajouter le pied gauche
+ajouter le bras droit
+ajouter le pied droit

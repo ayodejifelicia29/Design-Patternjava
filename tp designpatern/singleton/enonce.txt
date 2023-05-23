@@ -1,0 +1,12 @@
+Exercice singleton pattern:
+
+Implémentez une classe Singleton nommée "DatabaseConnection" qui représente une connexion à une base de données.
+La classe doit avoir les caractéristiques suivantes
+
+Un attribut privé statique de type "DatabaseConnection" nommé "instance". Un constructeur privé par défaut.
+Une méthode publique statique nommée "getInstance()" qui renvoie l'instance unique de la classe "DatabaseConnection".
+Si aucune instance n'existe, elle crée une nouvelle instance et la renvoie. Sinon, elle renvoie simplement l'instance existante.
+Votre tâche consiste à :
+
+Implémenter la classe "DatabaseConnection" en utilisant le modèle Singleton. Écrire un programme de test qui utilise la méthode "getInstance()"
+pour obtenir une instance de "DatabaseConnection" et affiche un message indiquant que la connexion à la base de données a été établie.

@@ -1,0 +1,7 @@
+Client A      <----    Entreprise lambda
+
+
+A passe une commande a lambda     | ObserverLambda va recevoir un message nouvelle commande
+lambda prepare la commande        | ObserverClient va recevoir un message pour lui dire que sa commande est prete
+lambda envoie la commande
+A recoit la commande              | ObserverLambda va recevoir un message qui dit que A a bien recu sa commande

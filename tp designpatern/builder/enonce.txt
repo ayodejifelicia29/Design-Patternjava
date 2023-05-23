@@ -1,0 +1,12 @@
+Exercice builder pattern:
+
+Supposons que vous construisiez une application pour gérer des objets de type "Produit". Un produit a les attributs suivants : "nom",
+"description", "prix" et "quantité".
+
+Votre tâche consiste à :
+
+Créer une classe Product avec les attributs mentionnés ci-dessus et leurs méthodes d'accès correspondantes. Implémenter un constructeur privé pour
+la classe Product afin d'empêcher son instanciation directe. Implémenter un builder pour la classe Product en suivant le modèle Builder.
+Le builder doit avoir des méthodes pour définir chaque attribut du produit (withNom(), withDescription(), withPrix(), withQuantite()).
+Le builder doit également avoir une méthode build() qui renvoie l'instance du produit construit. Écrire un programme de test qui utilise le builder
+pour construire un objet Product avec différents attributs et l'affiche.

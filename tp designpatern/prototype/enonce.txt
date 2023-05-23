@@ -1,0 +1,10 @@
+Exercie Prototype
+
+Supposons que vous développiez un système pour gérer des formes géométriques. Les formes géométriques peuvent être de différents types
+tels que cercles, carrés, triangles, etc.
+
+Votre tâche consiste à :
+
+Créer une interface Shape qui définit une méthode clone() pour cloner une forme géométrique. Implémenter des classes concrètes qui implémentent
+l'interface Shape pour différents types de formes géométriques (par exemple, Circle, Square, Triangle). Chaque classe doit implémenter la méthode
+clone() pour cloner l'objet. Écrire un programme de test qui utilise le prototypage pour cloner des objets de formes géométriques et les affiche
