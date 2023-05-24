@@ -1,0 +1,35 @@
+De connexion a la base de donnee:
+
+Singleton: DBManager dbManager;
+
+dbManager.save(); ----> Joueur.java
+dbManager.list(); ----> Jeu.java
+dbManager.update(); ---> Joueur.java, Jeu.java
+dbManager.delete(); ---> Jeu.java
+
+
+// mauvais
+Dans Joueur.java
+DBManager dbManager = new DBManager(); // demande beaucoup de memoire ou de temps (resources)
+
+Dans Jeu.java
+DBManager dbManager = new DBManager(); // demande beaucoup de memoire ou de temps (resources)
+
+
+// bon
+Dans Joueur.java
+DBManager dbManager = DBManager.getInstance();
+
+Dans Jeu.java
+DBManager dbManager = DBManager.getInstance();
+
+
+Pool pattern:
+
+dbManager.operation = {save, list, update, delete} creer une connexion a la base de donnee
+
+
+pools = {} // 2 max
+
+lorsque save est appele alors le pool va cree une connection con1 si le pool est vide
+lorsque list est appele alors le pool va cree une connection con2 si le pool est vide

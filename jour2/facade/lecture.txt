@@ -1,0 +1,17 @@
+class A -> direbonjour, direbonsoir
+class B -> dejeuner, souper
+class C -> se laver, dormir
+
+
+class Facade {
+    operations() {
+        A.direbonjour();
+        A.direbonjour();
+        A.direbonjour();
+        A.direbonjour();
+        A.direbonjour();
+    }
+}
+
+Facade f = new Facade();
+f.operations();
