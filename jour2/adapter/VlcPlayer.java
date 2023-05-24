@@ -1,6 +1,7 @@
 package adapter;
 
 public class VlcPlayer implements AdvancedMediaPlayer {
+    
 
     @Override
     public void playvlc(String file) {
