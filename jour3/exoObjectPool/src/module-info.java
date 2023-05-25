@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author faouz
- *
- */
-module exoObjectPool {
-}
