@@ -1,0 +1,24 @@
+Si ton probleme te demande de creer de nouvelles fonctionnalites pour un object/code qui existe deja sans toute fois toucher au code existant si non necessaire
+- Adapter pattern
+- Bridge pattern
+- Decorator pattern
+
+Si tu dois manipuler une famille d'objets qui partagent un truc en commun sans toute fois vouloir te soucier de la classe concrete (reelle) de cet objet
+- Abstract factory
+
+Si tu dois ameliorer un programme en gerant au mieux les resources
+- Object pool pattern
+
+Si on te demande de ameliorer la qualite du code en reduisant les instanciations inutiles
+- Singleton pattern
+- Object pool pattern
+
+Si on te demande de coder une librarie qui peut etre construit selon la volonte de l'utilisateur et de facon incremental
+- Builder pattern
+
+Si tu dois pouvoir notifier un groupe d'objets du changement d'etat d'un autre objet (sujet)
+- Observer pattern
+
+Composite pattern est souvent utilise pour definir des object qui encapsulent d'autres
+
+Facade pattern est souvent utilise pour regroupe un ensemble de fonctions/traitement dans une seule et meme classe
