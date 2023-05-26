@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>DecoratorPatternExo</name>
+	<name>TPEditeurDeTexte</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1685114312149</id>
+			<id>1685114312152</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
